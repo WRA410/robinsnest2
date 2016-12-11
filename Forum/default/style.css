@@ -104,7 +104,7 @@ td, th
 	margin-top:10px;
 	padding:0px;
 	background:;
-	width: 115%;
+	
 	-moz-border-radius:20px;
 	-webkit-border-radius:20px;
 	border-radius:20px;
@@ -115,16 +115,14 @@ td, th
 	text-align:center;
 	background-color:#edeff2;
 	width:60%;
-	-moz-border-radius:15px;
-	-webkit-border-radius:15px;
-	border-radius:15px;
+	
 	padding:10px;
 	margin:20px auto;
 }
 .content
 {
 	background-color: #a9a9a9;
-	width:110%;
+	width:auto;
 
 	-moz-border-radius:0px;
 	-webkit-border-radius:0px;
