@@ -25,11 +25,8 @@
   if ($loggedin)
   {
     echo "<br ><ul class='menu'>" .
-         "<li><a href='members.php?view=$user'>Home</a></li>" .
-         "<li><a href='members.php'>Members</a></li>"         .
-         "<li><a href='friends.php'>Friends</a></li>"         .
-         "<li><a href='messages.php'>Messages</a></li>"       .
-         "<li><a href='profile.php'>Edit Profile</a></li>"    .
+         "<li><a href='messages.php'>Home</a></li>"       .
+         "<li><a href='members.php'>Ban and subscribe</a></li>"         .
          "<li><a href='logout.php'>Log out</a></li></ul><br>";
   }
   else
