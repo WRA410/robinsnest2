@@ -22,10 +22,10 @@ $nb_new_pm = $nb_new_pm['nb_new_pm'];
 ?>
 <div class="box">
 	<div class="box_left">
-    	<a href="<?php echo $url_home; ?>">Forum Index</a> &gt; <a href="users.php">Liste des utilisateurs</a> &gt; Profile of an user
+    	<a href="<?php echo $url_home; ?>">Home</a> &gt; <a href="users.php">Liste des utilisateurs</a> &gt; Profile of an user
     </div>
 	<div class="box_right">
-    	<a href="list_pm.php">Your messages(<?php echo $nb_new_pm; ?>)</a> - <a href="profile.php?id=<?php echo $_SESSION['userid']; ?>"><?php echo htmlentities($_SESSION['username'], ENT_QUOTES, 'UTF-8'); ?></a> (<a href="login.php">Logout</a>)
+    	(<a href="login.php">Logout</a>)
     </div>
     <div class="clean"></div>
 </div>
@@ -67,7 +67,6 @@ if($_SESSION['userid']==$id)
     	<td><?php
 if($dnn['avatar']!='')
 {
-	echo '<img src="'.htmlentities($dnn['avatar'], ENT_QUOTES, 'UTF-8').'" alt="Avatar" style="max-width:100px;max-height:100px;" />';
 }
 else
 {
