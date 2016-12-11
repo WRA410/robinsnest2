@@ -21,7 +21,7 @@
   echo "<div class='main'>";
 
   // Uncomment this line if you wish the user’s profile to show here
-  // showProfile($view);
+  showProfile($view);
 
   $followers = array();
   $following = array();
@@ -47,7 +47,7 @@
   $mutual    = array_intersect($followers, $following);
   $followers = array_diff($followers, $mutual);
   $following = array_diff($following, $mutual);
-  $friends   = FALSE;
+  $friends   = TRUE;
 
   if (sizeof($mutual))
   {

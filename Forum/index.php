@@ -22,10 +22,10 @@ $nb_new_pm = $nb_new_pm['nb_new_pm'];
 ?>
 <div class="box">
 	<div class="box_left">
-    	<a href="<?php echo $url_home; ?>">Forum Index</a>
+    	<a href="<?php echo $url_home; ?>">Home</a>
     </div>
 	<div class="box_right">
-    	<a href="list_pm.php">Your messages(<?php echo $nb_new_pm; ?>)</a> - <a href="profile.php?id=<?php echo $_SESSION['userid']; ?>"><?php echo htmlentities($_SESSION['username'], ENT_QUOTES, 'UTF-8'); ?></a> (<a href="login.php">Logout</a>)
+    	(<a href="login.php">Logout</a>)
     </div>
 	<div class="clean"></div>
 </div>
