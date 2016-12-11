@@ -28,7 +28,7 @@ $nb_new_pm = $nb_new_pm['nb_new_pm'];
 ?>
 <div class="box">
 	<div class="box_left">
-    	<a href="<?php echo $url_home; ?>">Forum Index</a> &gt; <?php echo htmlentities($dn1['name'], ENT_QUOTES, 'UTF-8'); ?> &gt; Edit the category
+    	<a href="<?php echo $url_home; ?>">Home</a> &gt; <?php echo htmlentities($dn1['name'], ENT_QUOTES, 'UTF-8'); ?> &gt; Edit the category
     </div>
 	<div class="box_right">
     	(<a href="login.php">Logout</a>)

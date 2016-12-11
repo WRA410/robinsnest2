@@ -22,7 +22,7 @@ $nb_new_pm = $nb_new_pm['nb_new_pm'];
 ?>
 <div class="box">
 	<div class="box_left">
-    	<a href="<?php echo $url_home; ?>">Forum Index</a>
+    	<a href="<?php echo $url_home; ?>">Home</a>
     </div>
 	<div class="box_right">
     	(<a href="login.php">Logout</a>)
